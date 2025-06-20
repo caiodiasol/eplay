@@ -13,7 +13,7 @@ export const Action = styled.div`
   height: 100%;
   background-color: rgba(0, 0, 0, 0.73);
   display: flex;
-  align-itens: center;
+  align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -38,6 +38,7 @@ export const Item = styled.li`
     }
   }
 `
+
 export const Modal = styled.div`
   position: fixed;
   top: 0;
@@ -75,8 +76,16 @@ export const ModalContent = styled.div`
 
     h4 {
       font-size: 18px;
-      font-weigth: bold;
+      font-weight: bold;
     }
+  }
+
+  > img {
+    width: 100%;
+  }
+
+  > img {
+    width: 100%;
   }
 
   img,
