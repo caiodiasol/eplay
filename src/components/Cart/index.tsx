@@ -1,4 +1,11 @@
+import { useDispatch, useSelector } from 'react-redux'
+
 import Button from '../Button'
+import Tag from '../Tag'
+
+import { formataPreco } from '../Products.List'
+import { RootReducer } from '../../store'
+import { close, remove } from '../../store/reducers/cart'
 
 import {
   Overlay,
@@ -8,15 +15,6 @@ import {
   Quantity,
   CartItem
 } from './styles'
-
-import StarWars from '../../assets/images_M35/images/star_wars.png'
-import Tag from '../Tag'
-import { useDispatch, useSelector } from 'react-redux'
-import { RootReducer } from '../../store'
-
-import { close, remove } from '../../store/reducers/cart'
-import { formataPreco } from '../Products.List'
-import { Item } from '../Gallery/styles'
 
 const Cart = () => {
   const { isOpen, items } = useSelector((state: RootReducer) => state.cart)

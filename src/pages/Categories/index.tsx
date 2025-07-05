@@ -1,11 +1,4 @@
-import { useEffect, useState } from 'react'
 import ProductsList from '../../components/Products.List'
-
-import resident from '../../assets/images_M35/images/resident.png'
-import diablo from '../../assets/images_M35/images/diablo.png'
-import zelda from '../../assets/images_M35/images/zelda.png'
-import starWars from '../../assets/images_M35/images/star_wars.png'
-import { Game } from '../Home'
 
 import {
   useGetActionGamesQuery,
