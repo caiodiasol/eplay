@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
-export const cores = {
-  Branco: '#EEEEEE',
-  Preto: '#111111',
-  Cinza: '#333333',
-  Verde: '#10AC84',
-  CinzaClaro: '#A3A3A3'
+export const colors = {
+  white: '#EEEEEE',
+  black: '#111111',
+  gray: '#333333',
+  green: '#10AC84',
+  lightGray: '#A3A3A3'
 }
 
 export const breakpoints = {
@@ -23,8 +23,8 @@ export const GlobalCss = createGlobalStyle`
     }
 
     body {
-      background-color: ${cores.Preto};
-      color: ${cores.Branco};
+      background-color: ${colors.black};
+      color: ${colors.white};
       paadding-top: 40px;
     }
 
