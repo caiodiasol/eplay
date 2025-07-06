@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 import Section from '../Section'
-import { GalleryItem } from '../../pages/Home'
 
 import play from '../../assets/images_M35/images/botao-play_1.png'
 import zoom from '../../assets/images_M35/images/mais-zoom_1.png'
